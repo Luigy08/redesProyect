@@ -1,0 +1,37 @@
+<template name="device">
+  <div class="hvh-100 backgroundGray">
+    <div class="row">
+      <div class="col-12 p-0">
+        <div class="view overlay hvh-25">
+          <img class="card-img-top hvh-25" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+            alt="Card image cap">
+          <a href="#!">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+      </div>
+      <div class="col-12 cardSearh d-flex justify-content-center pb-5">
+        <div class="col-9">
+          <div class="card">
+            <!-- Card content -->
+            <div class="card-body">
+              <h3 class="text-center">Datos de tu Dispocitivo</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <p><strong>Systema Operativo: </strong>{{osName}}</p>
+      <p><strong>Tipo de dispocitivo: </strong>{{deviceType}}</p>
+      <p><strong>Compania: </strong>{{mobileVendor}}</p>
+      <p><strong>Modelo de celular: </strong>{{mobileModel}}</p>
+      
+      <div class="row">
+        <button id="submit">cincronizar</button>
+      </div>
+    </div>
+  </div>
+
+
+</template>
