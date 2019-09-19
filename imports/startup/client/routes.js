@@ -21,7 +21,7 @@ Router.route('/', {
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       this.render('device');
     } else {
-      this.render('listDevice');
+      this.render('listDevices');
     }
   }
 });
