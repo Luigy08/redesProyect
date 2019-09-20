@@ -11,13 +11,14 @@ const DeviceSchema = new SimpleSchema({
   ipAddress: {
     type: String,
     label: 'IP Address',
+    optional: true,
     autoform: {
       type: 'text'
     }
   },
-  HostName: {
+  company: {
     type: String,
-    label: 'Host Name',
+    label: 'Compania',
     autoform: {
       type: 'text'
     }
@@ -32,6 +33,13 @@ const DeviceSchema = new SimpleSchema({
   deviceType: {
     type: String,
     label: 'Tipo de Dispocitivo',
+    autoform: {
+      type: 'text'
+    }
+  },
+  modelo: {
+    type: String,
+    label: 'Modelo',
     autoform: {
       type: 'text'
     }

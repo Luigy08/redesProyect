@@ -1,3 +1,20 @@
 <template name="listDevices">
-  
+  <div class="container">
+    <div class="row mt-4">
+      {{#each devices}}
+      <div class="col-4">
+          <div class="card">
+            <img class="card-img-top" src="{{logo}}" alt="Card image cap">
+            <div class="card-body">
+              <p><strong>IP: </strong>{{ipAddress}}</p>
+              <p><strong>Systema Operativo: </strong>{{operatingSystem}}</p>
+              <p><strong>Tipo de dispocitivo: </strong>{{deviceType}}</p>
+              <p><strong>Compania: </strong>{{company}}</p>
+              <p><strong>Modelo de celular: </strong>{{modelo}}</p>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
 </template>

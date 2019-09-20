@@ -22,24 +22,20 @@
       </div>
     </div>
     <div class="container">
-        <div class="card">
-            <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/43.jpg" alt="Card image cap">
+      <div class="row justify-content-center">
+        <div class="col-6">
+          <div class="card">
+            <img class="card-img-top" src="{{logo}}" alt="Card image cap">
             <div class="card-body">
-              <h4 class="card-title"><a>Card title</a></h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Button</a>
+              <p><strong>IP: </strong>{{ip}}</p>
+              <p><strong>Systema Operativo: </strong>{{osName}}</p>
+              <p><strong>Tipo de dispocitivo: </strong>{{deviceType}}</p>
+              <p><strong>Compania: </strong>{{mobileVendor}}</p>
+              <p><strong>Modelo de celular: </strong>{{mobileModel}}</p>
             </div>
           </div>
-      <p><strong>Systema Operativo: </strong>{{osName}}</p>
-      <p><strong>Tipo de dispocitivo: </strong>{{deviceType}}</p>
-      <p><strong>Compania: </strong>{{mobileVendor}}</p>
-      <p><strong>Modelo de celular: </strong>{{mobileModel}}</p>
-      
-      <div class="row">
-        <button id="submit">cincronizar</button>
+        </div>
       </div>
     </div>
   </div>
-
-
 </template>
